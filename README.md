@@ -37,9 +37,9 @@ Once you've cloned this repository, you need to do a few things:
 2. run **./build.sh** in the *sortable\_bundle* directory.  This will compile the _\*.erl_ files in the *src* directories into _\*.beam_ files in the *ebin* directories, for both the sortable\_challenge and distributed\_map applications.
 3. put your *listings.txt* and *products.txt* source JSON data files into the *sortable\_challenge/data* directory.  There are two empty placeholder files there now to make Git happy.
 
-# Running the Applications
+## Running the Applications
 
-## distributed\_map
+### distributed\_map
 
 First enter the *distributed\_map* directory and execute the **./runme.sh** file from the console.  This will fire up several Erlang nodes on your computer, as well as a console node, connect them all together in a cluster, and give you some instructions.
 
@@ -51,7 +51,7 @@ Remember to type **q().** in the Erlang console when you're finished in order to
 
 Although this example runs on only one computer, the distributed\_map application can run on many multicore/multiprocessor computers connected together through a network.
 
-## sortable\_challenge
+### sortable\_challenge
 
 After you get an idea of how the distributed\_map program works, it's time to get down to solving the Sortable challenge.
 
