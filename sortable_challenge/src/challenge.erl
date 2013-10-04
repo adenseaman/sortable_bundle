@@ -80,7 +80,7 @@ stand_alone() ->
 	write_matches("data/results.stand_alone.txt",ProductsAndListings),
 
 	io:format("==== IMPORTANT ====~n"),
-	io:format("Test finished.  Type \"q().\" to exit Erlang interpreter~n"),
+	io:format("Job finished.  Type \"q().\" to exit Erlang interpreter~n"),
 	io:format("===================~n").
 
 
@@ -159,7 +159,7 @@ distributed_map() ->
 	write_matches("data/results.distributed_map.txt",ProductsAndListings),
 
 	io:format("==== IMPORTANT ====~n"),
-	io:format("Test finished.  Type \"q().\" to exit Erlang interpreter~n"),
+	io:format("Job finished.  Type \"q().\" to exit Erlang interpreter~n"),
 	io:format("===================~n").
 
 
