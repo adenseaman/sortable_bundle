@@ -43,7 +43,7 @@ Once you've cloned this repository, you need to do a few things:
 
 First enter the *distributed\_map* directory and execute the **./runme.sh** file from the console.  This will fire up several Erlang nodes on your computer, as well as a console node, connect them all together in a cluster, and give you some instructions.
 
-Type **distmap:slow\_example()** to see a play-by-play of the distributed processing of a trivial job.  This will prompt you for input and intentionally runs very slowly so you can see what's going on.  The most interested part is when it kills one of the Erlang nodes and later brings it back, all without interrupting the job processing.
+Type **distmap:slow\_example()** to see a play-by-play of the distributed processing of a trivial job.  This will prompt you for input and intentionally runs very slowly so you can see what's going on.  The most interesting part is when it kills one of the Erlang nodes and later brings it back, all without interrupting the job processing.
 
 If you type **distmap:fast\_example()** you'll see a play-by-play of processing a trivial but much larger job at full speed, without killing an Erlang node.
 
