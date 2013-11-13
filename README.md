@@ -21,7 +21,7 @@ These are two separate programs that can run on their own, but in order to do th
 
 # Brief Instructions
 
-1. git clone https://github.com/bisrcacuo/sortable\_bundle
+1. git clone https://github.com/bisrcacuo/sortable_bundle
 2. sudo apt-get install erlang
 3. copy Sortable Challenge data files, *listings.txt* and *products.txt*, into *sortable\_bundle/sortable\_challenge/data* directory
 4. cd sortable\_bundle; ./build.sh
