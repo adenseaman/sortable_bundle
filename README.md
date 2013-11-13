@@ -43,9 +43,9 @@ Once you've cloned this repository, you need to do a few things:
 
 First enter the *distributed\_map* directory and execute the **./runme.sh** file from the console.  This will fire up several Erlang nodes on your computer, as well as a console node, connect them all together in a cluster, and give you some instructions.
 
-Type **distmap:slow\_example()** to see a play-by-play of the distributed processing of a trivial job.  This will prompt you for input and intentionally runs very slowly so you can see what's going on.  The most interesting part is when it kills one of the Erlang nodes and later brings it back, all without interrupting the job processing.
+Type **distmap:slow\_example().** to see a play-by-play of the distributed processing of a trivial job.  This will prompt you for input and intentionally runs very slowly so you can see what's going on.  The most interesting part is when it kills one of the Erlang nodes and later brings it back, all without interrupting the job processing.
 
-If you type **distmap:fast\_example()** you'll see a play-by-play of processing a trivial but much larger job at full speed, without killing an Erlang node.
+If you type **distmap:fast\_example().** you'll see a play-by-play of processing a trivial but much larger job at full speed, without killing an Erlang node.
 
 Remember to type **q().** in the Erlang console when you're finished in order to exit.
 
@@ -62,7 +62,7 @@ This creates a JSON file *results.stand\_alone.txt* in the *data* directory.
 
 To use the distributed\_map application to solve the challenge, exit Erlang and type **./runme.distributed\_map.sh**.
 
-You'll need to type **challenge:distributed\_map()** to get things started, and it will prompt you for the client coordinator to which you'd like to submit the data.
+You'll need to type **challenge:distributed\_map().** to get things started, and it will prompt you for the client coordinator to which you'd like to submit the data.
 
 You'll get a play-by-play of what's going on as the data is crunched, then type **q().** to exit the Erlang shell.
 
