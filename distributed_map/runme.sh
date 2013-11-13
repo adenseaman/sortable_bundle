@@ -12,8 +12,8 @@ echo "Starting Erlang main console"
 echo ""
 echo "==== IMPORTANT ====="
 echo "type one of the following to begin the demo:"
-echo "  \"distmap:slow_example()\" for a throttled test on a small amount of data"
-echo "  \"distmap:fast_example\" for an unthrottled test on a large amount of data"
+echo "  \"distmap:slow_example().\" for a throttled test on a small amount of data"
+echo "  \"distmap:fast_example().\" for an unthrottled test on a large amount of data"
 echo "===================="
 erl -pa ebin -setcookie oatmealraisin -sname node1@localhost -run distmap setupcluster ${NODELIST}
 

@@ -12,7 +12,7 @@ echo "Starting Erlang main console"
 echo ""
 echo "==== IMPORTANT ====="
 echo "type the following to begin the demo:"
-echo "  \"challenge:distributed_map()\" for a parallel distributed solution to the Sortable Challenge using the Distributed Map application"
+echo "  \"challenge:distributed_map().\" for a parallel distributed solution to the Sortable Challenge using the Distributed Map application"
 echo "===================="
 erl -pa ebin -pa ../distributed_map/ebin -setcookie oatmealraisin -sname node1@localhost -run distmap setupcluster ${NODELIST}
 
